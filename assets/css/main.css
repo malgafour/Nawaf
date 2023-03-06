@@ -36,67 +36,67 @@
 /*----------------------------------------*/
 @font-face {
   font-family: 'cerebri_sansbold';
-  src: url("../fonts/cerebrisans-bold-webfont.html") format("woff2"), url("../fonts/cerebrisans-bold-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'cerebri_sansheavy';
-  src: url("../fonts/cerebrisans-heavy-webfont.html") format("woff2"), url("../fonts/cerebrisans-heavy-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'cerebri_sanslight';
-  src: url("../fonts/cerebrisans-light-webfont.html") format("woff2"), url("../fonts/cerebrisans-light-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'cerebri_sansmedium';
-  src: url("../fonts/cerebrisans-medium-webfont.html") format("woff2"), url("../fonts/cerebrisans-medium-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'cerebri_sansregular';
-  src: url("../fonts/cerebrisans-regular-webfont.html") format("woff2"), url("../fonts/cerebrisans-regular-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'cerebri_sanssemibold';
-  src: url("../fonts/cerebrisans-semibold-webfont.html") format("woff2"), url("../fonts/cerebrisans-semibold-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'futurabold';
-  src: url("../fonts/futura_bold_font-webfont.html") format("woff2"), url("../fonts/futura_bold_font-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'futuralight';
-  src: url("../fonts/futura_light_bt-webfont.html") format("woff2"), url("../fonts/futura_light_bt-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'futuramedium';
-  src: url("../fonts/futura_medium_bt-webfont.html") format("woff2"), url("../fonts/futura_medium_bt-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'futurabook';
-  src: url("../fonts/futura-book-bt-22240-webfont.html") format("woff2"), url("../fonts/futura-book-bt-22240-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'futura_hv_btheavy';
-  src: url("../fonts/futura-hv-bt-heavy-webfont.html") format("woff2"), url("../fonts/futura-hv-bt-heavy-webfont.woff") format("woff");
+  src: url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&amp;display=swap") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -352,7 +352,7 @@ label {
   font: 600 14px/1 "cerebri_sanssemibold";
   padding: 23px 35px;
   text-transform: uppercase;
-  border-radius: 0 30px 30px;
+  border-radius: 30px 0px 30px 30px;
   display: inline-block;
   cursor: pointer;
   -webkit-transition: all 0.4s ease-out 0s;
@@ -3165,7 +3165,7 @@ input.main-search-input:-ms-input-placeholder {
 .slider-area-03 .right-banner {
   position: absolute;
   z-index: 5;
-  right: 9%;
+  left: 9%;
   top: 25%;
   width: 32%;
   animation: float-bob-y infinite 6s linear;
@@ -3176,7 +3176,7 @@ input.main-search-input:-ms-input-placeholder {
   z-index: 5;
 }
 .slider-area-03 .slider-shape-h4 {
-  right: 110px;
+  left: 110px;
   top: 176px;
   z-index: 3;
 }
@@ -3275,10 +3275,17 @@ input.main-search-input:-ms-input-placeholder {
   font-family: "cerebri_sanslight";
   display: block;
 }
+.slider__content{
+  text-align: right !important;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider_content_03 span {
     font-size: 60px;
     line-height: 60px;
+    text-align: center !important;
+  }
+  .slider__content{
+    text-align: center !important;
   }
 }
 @media (max-width: 767px) {
@@ -3428,7 +3435,7 @@ input.main-search-input:-ms-input-placeholder {
   border: 2px solid #6a961f;
   border-radius: 50%;
   position: absolute;
-  right: 28rem;
+  left: 28rem;
   top: 0;
   width: 26px;
   height: 26px;
@@ -4304,7 +4311,7 @@ input.main-search-input:-ms-input-placeholder {
 
 .counter__03 {
   padding: 20px 35px 0 35px;
-  border-radius: 0 40px 40px 40px;
+  border-radius: 40px 0 40px 40px;
 }
 .counter__03.leaf__bg::before {
   content: "";
@@ -6784,6 +6791,8 @@ input.main-search-input:-ms-input-placeholder {
 
 .list-02 li {
   font-family: "futurabook";
+  text-align: right;
+margin-right: 5rem;
 }
 
 .staff {
