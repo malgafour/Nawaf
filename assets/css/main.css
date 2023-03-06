@@ -1657,7 +1657,8 @@ section-title
 }
 
 .pr-70 {
-  padding-right: 70px;
+  padding-left: 70px;
+text-align: right !important;
 }
 
 .pr-75 {
@@ -8742,7 +8743,7 @@ margin-right: 5rem;
 
 
 @media (max-width: 767px) {
-  .profesional.pl-40.pr-70.mb-30, .profesional.pl-40.pr-70.mb-30 .text-left {
+  .profesional.pl-40.pr-70.mb-30, .profesional.pl-40.pr-70.mb-30 .text-left, .pr-70 {
     text-align: center !important;
   }
   .about__link--list li::before {left:15rem}
