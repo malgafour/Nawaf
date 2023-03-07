@@ -4293,6 +4293,7 @@ input.main-search-input:-ms-input-placeholder {
 .list-02 li {
   font-size: 18px;
 font-weight: bolder;
+
 }
 .list-02 li::before {
   width: 25px;
@@ -4894,6 +4895,7 @@ font-weight: bolder;
 .theme_btn2 {
   padding: 20px 39px;
   display: inline-block;
+  margin-right: 25%;
 }
 
 
@@ -6794,7 +6796,7 @@ font-weight: bolder;
 .list-02 li {
   font-family: "futurabook";
   text-align: right;
-margin-right: 10rem;
+margin-right: 7.9rem;
 }
 
 .staff {
