@@ -6796,7 +6796,7 @@ font-weight: bolder;
 .list-02 li {
   font-family: "futurabook";
   text-align: right;
-margin-right: 7.9rem;
+margin-right: 10rem;
 }
 
 .staff {
@@ -8750,6 +8750,7 @@ margin-right: 7.9rem;
     text-align: center !important;
   }
   .about__link--list li::before {left:15rem}
+  .list-02 li{margin-right: 7rem;}
   
 }
 
