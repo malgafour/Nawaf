@@ -4291,7 +4291,8 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .list-02 li {
-  font-size: 15px;
+  font-size: 18px;
+font-weight: bolder;
 }
 .list-02 li::before {
   width: 25px;
